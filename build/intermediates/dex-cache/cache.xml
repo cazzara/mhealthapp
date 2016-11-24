@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\cazza223\AndroidStudioProjects\mHealthApp\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="09c5e804bc67fc0580360043dff067df574a60d4">
+        <dex dex="C:\Users\cazza223\AndroidStudioProjects\mHealthApp\app\build\intermediates\pre-dexed\debug\com.android.support-recyclerview-v7-23.1.1_74dad99ea2a6d842c0b89a9cf71b728de2b0de0f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\cazza223\AndroidStudioProjects\mHealthApp\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="b71f11d0282a5d2230913b46f0d763c65ad54c7e">
+        <dex dex="C:\Users\cazza223\AndroidStudioProjects\mHealthApp\app\build\intermediates\pre-dexed\debug\instant-run-bootstrap_2962f55a3bb293c4e98b39c41bb6558f535d860a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\cazza223\AndroidStudioProjects\mHealthApp\app\build\intermediates\exploded-aar\com.android.support\design\23.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="379471b2bd17d9737c050345c08e8c7d16589784">
+        <dex dex="C:\Users\cazza223\AndroidStudioProjects\mHealthApp\app\build\intermediates\pre-dexed\debug\com.android.support-design-23.1.1_c06a79e2aa45c263afc24b3682af0ea002be0e62.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\cazza223\AndroidStudioProjects\mHealthApp\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="6cbc7773921fcfedbe55657578f0cbfe614778dc">
+        <dex dex="C:\Users\cazza223\AndroidStudioProjects\mHealthApp\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-23.1.1_096d20a83ffc843e1b7e1097d3fd6d0c5fc0a260.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\cazza223\AndroidStudioProjects\mHealthApp\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="5c5699834e9722f1c288fea2de82725d078ba127">
+        <dex dex="C:\Users\cazza223\AndroidStudioProjects\mHealthApp\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-23.1.1_bd80196aa85bed5825d794358a2e2588a0154f1e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\cazza223\AndroidStudioProjects\mHealthApp\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="f434b7698b1104a9d1cc329b8c7c40ab696b0317">
+        <dex dex="C:\Users\cazza223\AndroidStudioProjects\mHealthApp\app\build\intermediates\pre-dexed\debug\instant-run_53436542166a0c206bae867a57e080dd018e9d32.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\cazza223\AndroidStudioProjects\mHealthApp\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\jars\libs\internal_impl-23.1.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="a4de9c81ae239414e1ed0f86441b02abaf29bca9">
+        <dex dex="C:\Users\cazza223\AndroidStudioProjects\mHealthApp\app\build\intermediates\pre-dexed\debug\internal_impl-23.1.1_ca3371c0012b2e08bf82e444cc562f4a12ab926e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\cazza223\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.1.1\support-annotations-23.1.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="8d680ba5a623724d1fb0e81c36a790f023a6cede">
+        <dex dex="C:\Users\cazza223\AndroidStudioProjects\mHealthApp\app\build\intermediates\pre-dexed\debug\support-annotations-23.1.1_72eda423f680d2bcbdd9709910d11a52cf422ada.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\cazza223\AndroidStudioProjects\mHealthApp\app\build\intermediates\exploded-aar\com.android.volley\volley\1.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="2cd4b982617e544728de0782d718a58ce1b06e3f">
+        <dex dex="C:\Users\cazza223\AndroidStudioProjects\mHealthApp\app\build\intermediates\pre-dexed\debug\com.android.volley-volley-1.0.0_f959e5a6ad0b75390f9e1c73746c4826213493d8.jar" />
+    </item>
+
+</items>

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">SJU mHealth</string>
+    <string name="title_activity_user_area">UserAreaActivity</string>
+    <string-array name="diseases">
+        <item>Diabetes</item>
+        <item>Parkinsons</item>
+    </string-array>
+    <string name="title_activity_at_rest_data">AtRestDataActivity</string>
+    <string name="title_activity_active_data">ActiveDataActivity</string>
+
+</resources>

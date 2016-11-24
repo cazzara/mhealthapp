@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_drug_survey"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.cazza223.mhealthapp.drug_survey">
+
+    <TextView
+        android:text="Drug Effects Questionnaire"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_deq"
+        android:textAlignment="center"
+        android:textSize="42sp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textStyle="normal|bold" />
+
+    <TextView
+        android:text="1.  Do you FEEL a drug effect right now? "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="56dp"
+        android:id="@+id/tv_Q1"
+        android:textSize="24sp"
+        android:layout_below="@+id/tv_deq"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="Not At All"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_deq"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="27dp"
+        android:id="@+id/tv_notatall" />
+
+    <TextView
+        android:text="Extremely"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_extremely"
+        android:layout_alignBaseline="@+id/tv_notatall"
+        android:layout_alignBottom="@+id/tv_notatall"
+        android:layout_alignRight="@+id/tv_Q1"
+        android:layout_alignEnd="@+id/tv_Q1" />
+
+    <SeekBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:id="@+id/sb_Q1"
+        android:max="10"
+        android:progress="1"
+        android:layout_below="@+id/tv_Q1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/tv_deq"
+        android:layout_alignEnd="@+id/tv_deq" />
+
+    <TextView
+        android:text="2. Do you LIKE any of the effects you are feeling right now?"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="11dp"
+        android:id="@+id/tv_Q2"
+        android:textSize="24sp"
+        android:layout_below="@+id/sb_Q1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <SeekBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/sb_Q2"
+        android:max="10"
+        android:progress="1"
+        android:layout_below="@+id/tv_Q2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/sb_Q1"
+        android:layout_alignEnd="@+id/sb_Q1" />
+
+    <TextView
+        android:text="3. Do you DISLIKE any of the effects you are feeling right now?"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_Q3"
+        android:textSize="24sp"
+        android:layout_below="@+id/sb_Q2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <SeekBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/sb_Q3"
+        android:max="10"
+        android:progress="1"
+        android:layout_below="@+id/tv_Q3"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/sb_Q2"
+        android:layout_alignEnd="@+id/sb_Q2" />
+
+    <SeekBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/sb_Q5"
+        android:max="10"
+        android:progress="1"
+        android:layout_below="@+id/tv_Q5"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/sb_Q4"
+        android:layout_alignEnd="@+id/sb_Q4" />
+
+    <Button
+        android:text="Submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/bSubmit_DS"
+        android:layout_marginTop="62dp"
+        android:layout_below="@+id/sb_Q5"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:text="4. Are you HIGH right now?"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_Q4"
+        android:textSize="24sp"
+        android:layout_marginTop="22dp"
+        android:layout_below="@+id/sb_Q3"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <SeekBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/sb_Q4"
+        android:max="10"
+        android:progress="1"
+        android:layout_marginTop="19dp"
+        android:layout_below="@+id/tv_Q4"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/sb_Q3"
+        android:layout_alignEnd="@+id/sb_Q3" />
+
+    <TextView
+        android:text="5. Would you like MORE of the drug you took, right now?"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_Q5"
+        android:textSize="24sp"
+        android:layout_marginTop="29dp"
+        android:layout_below="@+id/sb_Q4"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>
