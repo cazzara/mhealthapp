@@ -53,5 +53,5 @@ Next create a user who will own the database we just created
 <code>psql</code> is an interactive terminal for the POSTGRESQL database
 
 # Build Android Application
-I used Android Studio to write the mobile app so you can clone or download this repository and just import it into Android Studio
+I used Android Studio to write the mobile app so you can clone or download this repository and just import it into Android Studio. <br>
 Again, the folder named "python-files" just contains scripts I wrote for the server and are not a part of the Android app so those can be removed from the folder you download this project to before importing to to Android Studio.
