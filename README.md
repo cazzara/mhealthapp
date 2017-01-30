@@ -45,10 +45,13 @@ To quickly install all of the required libraries to run the Flask server, use th
 # Create database and user
 Switch to the user "postgres" to create the database and view the contents (or use a GUI tool if your situation supports it! :P)
 <br><code>sudo su - postgres</code><br>
-
 <code>createdb yourdbname</code><br>
 
-This will create a user "your_username" who will own the database we just created
+Next create a user who will own the database we just created
 <code>createuser --encrypted --login --pwprompt your_username</code><br>
 
 <code>psql</code> is an interactive terminal for the POSTGRESQL database
+
+# Build Android Application
+I used Android Studio to write the mobile app so you can clone or download this repository and just import it into Android Studio
+Again, the folder named "python-files" just contains scripts I wrote for the server and are not a part of the Android app so those can be removed from the folder you download this project to before importing to to Android Studio.
